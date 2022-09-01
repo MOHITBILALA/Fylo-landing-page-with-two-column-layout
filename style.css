@@ -1,0 +1,617 @@
+/* Univarsal Selector */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.3;
+}
+
+/* first-section */
+
+.fylo-landing-pages{
+
+    padding: 20px 50px 20px 50px;
+
+}
+
+/* head part */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+ 
+nav{
+    padding: 00px 10px 00px 10px;
+}
+
+.logo img{
+    width: 150px;
+}
+
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 00px 15px 00px 15px;
+}
+
+nav li a{
+    color: black;
+
+    font-size: 1rem;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+
+/* headsection completed */
+
+/* first Section  */
+
+.know-more-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.text-info{
+    line-height: 1.2;
+    width: 60%;
+
+}
+
+ h1{
+    font-weight: bold;
+    font-size: 2.6rem;
+    font-weight: bold;
+    padding-bottom: 1rem;  
+
+}
+
+ p{
+    line-height: 1.3;
+    font-size: 1.2rem;
+    color: black;
+    padding-bottom: 1rem;
+
+    
+}
+.placeholderemail{
+    display: flex;
+    gap: 12px;
+}
+
+.text-info a{
+     background-color: hsl(224deg 93% 58%);
+     color: white;
+     padding: 10px 40px 10px 40px;
+    
+     text-decoration: none;
+
+     
+}
+
+.text-info a:hover{
+    background-color: lightblue;
+
+}
+
+.email-id{
+    padding: 00px 50px 00px 50px;
+}
+
+.company-images img{
+    width: 100%;
+}
+
+/* first section has been completed */
+
+/* Middle section starting time */
+
+
+.middle-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-image: url(images/bg-curve-desktop.svg);
+    margin-top: 4rem;
+    background-repeat: cover;
+    
+    
+}
+
+
+.anchor{
+    color: hsl(170deg 45% 43%);
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.line{
+    width: 200px;
+    height: 1px ;
+    background-color: black;
+}
+
+.arrow-anchor-text{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+
+.arrow-icon{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 2.5%;
+   
+}
+
+/* Middle section has been completed */
+
+
+
+/* .Custumer-reviews */
+
+.testimonial-section{
+
+    background-color: white;
+    box-shadow: 00px 00px 25px rgba(00, 00, 00, 0.2);
+    width: 50vh;
+   
+    padding: 30px 20px 30px 20px;
+    
+    height: 27vh;
+
+
+}
+.testimonial-section img{
+    width: 10px;
+   
+}
+
+.paragraph1{
+    line-height: 1.4;
+    opacity: 0.9;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    
+}
+
+.imagesandname img{
+    width: 35px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.imagesandname{
+    display: flex;
+    gap: 15px;
+}
+
+.name{
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    text-align: center;
+
+   
+}
+
+/* testimonial section has been completed */
+
+/* Anoter section of company box related */
+
+
+.company-box{
+    height: 45vh;
+    width: 100%;
+    background-color:hsl(238deg 22% 44%);
+    display: flex;
+    padding: 100px 90px 100px 90px;
+}
+
+.important-text h1{
+    color: white;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+.important-text p{
+    width: 60%;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+}
+
+#email{
+    padding: 10px 150px 10px 150px;
+    margin-bottom: 2rem;
+}
+
+
+.companies-email a{
+    background-color: hsl(224deg 93% 58%);
+    padding: 12px 30px 12px 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+/* company box has been completed */
+
+/* starting point of footer section */
+
+.footer-section{
+    height: 40vh;
+    width: 100%;
+    background-color:hsl(243deg 87% 12%);
+    padding: 50px 100px 50px 100px;
+    color: black;
+}
+
+
+.logo1{
+    width: 150px;
+    padding-bottom: 2rem;
+
+}
+.flex{
+    display: flex;
+    padding:10px;
+    gap: 20px;
+    color: white;
+
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .footer-nav{
+    display: flex;
+
+  }
+
+  .improtant-flex{
+    display: flex;
+  }
+
+  .footer-flex{
+    padding: 00px 100px 00px 400px;
+    display: flex;
+ gap: 80px;
+    justify-content: space-between;
+    margin: -75px;
+    margin: -75px 100px 00px 100px ;
+    color: white;
+
+  }
+
+  .footer-nav{
+    justify-content: space-between;
+    display: flex;
+    gap: 120px;
+  }
+
+  .contact-navigation li{
+    list-style: none;
+    line-height: 1.6;
+    
+    
+
+    
+  }
+
+  .contact-navigation a{
+   
+    text-decoration: none;
+    color: white;
+   
+  }
+
+
+
+
+  
+  @media only screen and (max-width:1200px){
+
+    .logo img{
+        width: 80px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+
+    }
+
+
+    #emailids{
+        padding: 5px 10px 5px 10px;
+        
+    }
+
+    .text-info a{
+        padding: 5px 10px 5px 10px;
+    }
+
+    .testimonial-section{
+        height: 22vh;
+        padding: 15px 10px 15px 10px;
+    }
+
+    .testimonial-section p{
+        font-size: 0.9rem;
+    }
+    
+    .important-text h1{
+        font-size: 1.6rem;
+    }
+  
+    .important-text p{
+        font-size: 1rem;
+    }
+
+    #email{
+        padding: 5px 70px 5px 70px;
+    }
+
+    .companies-email a{
+        padding: 5px 15px 5px 15px;
+    }
+
+    .company-box{
+        height: 30vh;
+        padding: 90px  80px 90px 80px;
+    }
+
+    .social-media-icons{
+        display: flex;
+    }
+
+
+    
+
+   
+    }
+
+    @media only screen and (max-width:1100px){
+
+        .footer-flex{
+          padding: 00px 180px 00px 180px;
+        }
+      
+        h1{
+          font-size: 1.2rem;
+          font-weight: bold;
+         
+        }
+      
+        p{
+          font-size: 0.9rem;
+          line-height: 1.4;
+        }
+      
+        #emailids{
+          padding: 4px 8px 4px 8px;
+          
+      }
+      
+      
+      .text-info a{
+          padding: 3px 8px 3px 8px;
+      }
+      
+      
+
+      @media only screen and (max-width:1000px){
+     
+        .know-more-about{
+       flex-direction: column-reverse;
+        }
+
+        h1{
+            font-size: 2.2rem;
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+        }
+
+
+        .placeholderemail{
+            flex-direction: column-reverse;
+            flex-direction: column;
+
+        }
+
+        .placeholderemail a{
+            text-align: center;
+        }
+
+        .middle-section{
+            flex-direction: column-reverse;
+
+        }
+
+        .text-info1 p{
+            text-align: center;
+        }
+
+        .text-info h1{
+            text-align: center;
+        }
+
+        .arrow-anchor-text{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            text-align: center;
+            padding-left: 40%;
+        }
+
+        .anchor{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            
+        }
+        .line{
+            text-align: center;
+            margin-left: 40%;
+        }
+
+       .testimonial-section{
+    
+        margin: auto;
+        margin-top: 5%;
+       }
+      
+        .testimonial-section img{
+            width: 30px;
+        }
+
+        .company-box{
+            flex-direction: column-reverse;
+            flex-direction: column;
+            height: 40vh;
+        
+         
+        }
+        .important-text h1{
+            text-align: center;
+        }
+
+        .important-text p{
+            text-align: center;
+            align-items: center;
+        margin: auto;
+          
+
+        }
+  
+        .companies-email{
+            text-align: center;
+        }
+
+     
+
+      }
+    
+
+  }
+
+
+  @media only screen and (max-width:866px){
+    body{
+        width: 100%;
+    }
+
+    .fylo-landing-pages{
+        padding: 10px 00px 10px 10px;
+        width: 100%;
+    }
+
+    .text-info{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 1.2rem;
+    }
+
+    .company-images img{
+        width: 100%;
+    }
+
+    .text-info1{
+        width: 100%;
+    }
+
+    .testimonial-section{
+        width: 100%;
+    }
+
+    .company-box{
+        width: 100%;
+    }
+
+    .important-text{
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width:400px){
+    body{
+        width: 250%;
+    }
+
+    .fylo-landing-pages{
+        padding: 10px 50px 10px 50px;
+        width: 100%;
+    }
+
+    .text-info{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 1.2rem;
+    }
+
+    .company-images img{
+        width: 100%;
+    }
+
+    .text-info1{
+        width: 100%;
+    }
+
+    .testimonial-section{
+        width: 100%;
+    }
+
+    .company-box{
+        width: 100%;
+    }
+
+    .important-text{
+        width: 100%;
+    }
+.testimonial-section{
+    width: 45%;
+   margin-bottom: 1rem;
+}
+  }
